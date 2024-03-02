@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/Style.css">
+    <title>YouT-alent</title>
+</head>
+<body>
+    <!-- Navbar-->
+    <nav class="container">
+        <h2 class="log"> YouT-alent</h2>
+        <div class="searchbar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" id="search" placeholder="Search for creators, inspirations and projects">
+        </div>
+        <div class="create">
+            <input type="text" id="create-post" style="display: none;">
+            <label class="btn btn-primary" for="create-post">Create</label>
+            <div class="profile-photo">
+                <img src="Assets/Images/Child1.jpeg">
+            </div>
+        </div>
+    </nav>
+    <!--Main-->
+    <main>
+        <div class="container">
+            <!--left side grid-->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="Assets/Images/Child1.jpeg">
+                    </div>
+                    <div class="handle">
+                        <h4>Eunice Banks</h4>
+                        <p class="text-muted">
+                            @eubanks 
+                        </p>
+                    </div>
+                </a>
+                <!-- Sidebar-->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="fa-solid fa-house"></i></span><h3>Home</h3>
+                    </a>
+                    <a>
+                        <span><i class="fa-solid fa-bell"></i></span><h3>Notifications</h3>
+                        <!-- Notification pop-up-->
+                        <div class="notifications-popup">
+                            <div class="profile-photo">
+                                <img src="Assets/Images/Child1.jpeg">
+                            </div>
+                            <div class="notification-body">
+                                <b>Keke Palmer</b> accepted your friend request
+                                <small class="text-muted">2 DAYS AGO</small>
+                            </div>
+                        </div>
+                    </a>
+                    <a>
+                        <span><i class="fa-solid fa-envelope"></i></span><h3>Messages</h3>
+                    </a>
+                    <a>
+                        <span><i class="fa-solid fa-bookmark"></i></span><h3>Bookmarks</h3>
+                    </a>
+                    <a>
+                        <span><i class="fa-solid fa-chart-simple"></i></span><h3>Analytics</h3>
+                    </a>
+                    <a>
+                        <span><i class="fa-solid fa-palette"></i></span><h3>Theme</h3>
+                    </a>
+                    <a>
+                        <span><i class="fa-solid fa-gear"></i></span><h3>Settings</h3>
+                    </a>
+                </div>
+            </div>
+            <!--middle grid-->
+            <div class="middle"></div>
+            <!--right side grid-->
+            <div class="right"></div>
+        </div>
+    </main>
+    <script src="Assets/script.js"></script>
+    <script src="https://kit.fontawesome.com/54f0c3b57c.js" crossorigin="anonymous"></script>
+</body>
+</html>
